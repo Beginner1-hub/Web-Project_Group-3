@@ -28,6 +28,7 @@ hash_password.php – Utility for hashing a password (e.g., for admin/staff inse
 login.php – Login page for staff/admin users.
 logout.php – Clears session and redirects to login page.
 connect.php – Central database connection file used across all scripts.
+hash_password.php- used to generate secure hashed passwords using PHP’s password_hash() function. It helps create encrypted passwords which are then stored in the database for safe user authentication.
 
 /uploads/ – Contains images for staff, modules, and programme backgrounds.
 admin_styles.css – Styling for admin interface.
