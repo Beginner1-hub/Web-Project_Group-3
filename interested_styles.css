@@ -1,0 +1,163 @@
+
+body {
+    font-size: 18px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #ffffff);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.main-container {
+    max-width: 100%;
+    padding: 30px;
+    font-size: 18px;
+
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    overflow-x: auto;
+}
+
+.card h1 {
+    font-size: 32px;
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    background: #00796b;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.back-btn:hover {
+    background: #004d40;
+}
+
+#students-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    text-align: left;
+}
+
+#students-table thead {
+    background-color: #00796b;
+    color: white;
+}
+
+#students-table th, #students-table td {
+    padding: 14px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+#students-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.delete-btn {
+    background-color: #e53935;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #c62828;
+}
+
+.export-btn {
+    background-color: #0288d1 !important;
+    color: white !important;
+    font-weight: bold;
+    border-radius: 6px !important;
+    border: none !important;
+    padding: 8px 15px !important;
+}
+
+
+/* Make container full width and responsive */
+.main-container {
+    max-width: 95%;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    font-size: 18px;
+}
+
+/* Ensure table fits container */
+#students-table {
+    width: 100% !important;
+    font-size: 16px;
+}
+
+/* Improve header and text */
+h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    font-size: 16px;
+}
+
+button.delete-btn {
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+/* Export button size fix */
+button.buttons-csv {
+    font-size: 16px !important;
+    padding: 8px 16px !important;
+}
+
+/* Ensure responsiveness on smaller screens */
+@media (max-width: 768px) {
+    .main-container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    #students-table {
+        font-size: 14px;
+    }
+}
